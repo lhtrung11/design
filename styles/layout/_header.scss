@@ -1,0 +1,18 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: $header-height;
+    padding: 0 5%; // Need edit
+    background: $cl-dark;
+    color: $cl-light;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

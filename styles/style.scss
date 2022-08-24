@@ -1,0 +1,36 @@
+// IMPORT HELPERS SCSS
+@import './helpers/variables';
+@import './helpers/mixins';
+@import './helpers/functions';
+
+// IMPORT BASE SCSS
+@import './base/reset';
+@import './base/typography';
+
+// IMPORT COMPONENTS SCSS
+@import './components/button';
+@import './components/dropdown';
+@import './components/input';
+@import './components/slide';
+@import './components/table';
+@import './components/toast';
+
+// IMPORT LAYOUT SCSS
+@import './layout/header';
+@import './layout/main';
+@import './layout/footer';
+
+// ATTRIBUTE DECLARING STRUCTURE
+/* 
+    SELECTOR: {
+        DISPLAY
+        POSITION
+        SHAPE: WIDTH, HEIGHT, PADDING, MARGIN,...
+        COLOR: COLOR, BACKGROUND-COLOR,...
+        FONT: FONT-SIZE, FONT-WEIGHT,...
+        ...
+        SUB-SELECTOR: {...}
+        ...
+        RESPONSIVE
+    }
+*/
